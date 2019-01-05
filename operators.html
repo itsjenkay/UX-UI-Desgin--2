@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript operators</title>
+</head>
+<body>
+<h1>java scripts operaands</h1>
+<script type="text/javascript">
+	var num = 0;
+
+		document.write( ++num +"<br>");
+		document.write( ++num +"<br>");
+		document.write( ++num +"<br>");
+		document.write( ++num +"<br>");
+	
+
+var firstNumber = 3;
+var secondNumber = 4;
+document.write("First number is greater than the second number:" + (firstNumber > secondNumber));
+document.write("<br/>First number is less than the second number:"  + (firstNumber < secondNumber));
+document.write("<br/>First number is equal to the second number: " + (firstNumber == secondNumber));
+
+var name=prompt("please enter your name");
+var gender=prompt("please enter your gender");
+gender=gender.toLowerCase();
+// var title= (gender=="male")? "mr":"Mrs";
+if (gender=="male") {
+	var title="mr";
+}
+else if(gender=="female"){
+	var title="mrs"
+}
+else{
+	var title="";
+}
+alert("welcome to my site"+ title +""+ name)
+</script>
+</body>
+</html>
